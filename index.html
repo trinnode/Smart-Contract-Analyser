@@ -7,8 +7,7 @@
     <!-- You can change the page title here -->
     <title>Smart Contract Analyzer</title>
     
-    <!-- Using Tailwind CSS for a modern look. No setup needed. -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    
     
     <!-- Using the Inter font for clean typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -230,12 +229,14 @@
         </div>
         <footer class="text-center mt-6 text-sm theme-text-muted">
             <!-- You can change the footer name or link here -->
-            <p>Built for seamless smart contract analysis • <span class="text-indigo-400">Powered by Ethers.js</span></p>
+            <p>Built for seamless smart contract analysis • <span class="text-indigo-400">Developed by Trinnex</span></p>
         </footer>
     </div>
 
     <!-- Ethers.js library for blockchain interaction -->
     <script src="https://cdn.ethers.io/lib/ethers-5.7.2.umd.min.js"></script>
+    <!-- Using Tailwind CSS for a modern look. No setup needed. -->
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <script>
         // =================================================================================
@@ -289,8 +290,8 @@
         const networks = {
             "ethereum": {
                 name: "Ethereum",
-                rpcUrl: "https://mainnet.infura.io",
-                fallbackRpcUrl: "https://dimensional-special-breeze.quiknode.pro"
+                rpcUrl: "https://ethereum.publicnode.com",
+                fallbackRpcUrl: "https://rpc.ankr.com/eth"
             },
             "polygon": {
                 name: "Polygon",
